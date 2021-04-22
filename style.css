@@ -1,0 +1,44 @@
+
+
+    @font-face {
+        font-family: "Raleway";
+        src: url("Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+    }
+   body {
+font-family: "Raleway", serif;
+   }
+
+/* Navigation */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-end; 
+}
+
+nav li
+{
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-size: 1.2em;
+    color: black;
+    padding-top: 21px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: #0065FC;
+    border-top: 3px solid; color :#0065FC; 
+}
+.S_inscrire{
+    color: #0065FC;
+}
