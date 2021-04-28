@@ -41,4 +41,61 @@ nav a:hover
 }
 .S_inscrire{
     color: #0065FC;
+/* titres */
+}
+h2
+{
+    font-weight: normal;
+}
+/* barre de recherche */
+.fa-map-marker-alt
+{
+    background-color: #F2F2F2;
+    padding-top: 8px; padding-left: 8px; padding-bottom: 10px; padding-right: 7px;
+    border-top-left-radius: 10px; border-bottom-left-radius: 10px; border-color: #F2F2F2;
+    margin-right: -4px;
+}
+.bouton-recherche
+{
+    color: white; font-weight: bold;
+    padding: 6px;
+    border-bottom-right-radius:10px ; border-top-right-radius: 10px;
+    border: solid; border-color: #0065FC; 
+    background-color: #0065FC;
+}
+.recherche
+{
+    padding: 6px;
+    border-width:1px;
+    border: solid;
+    border-color: #F2F2F2;
+    border-right: #0065FC;
+}
+/* filtres */
+form
+{
+    display: flex;
+    list-style-type: none;
+}
+label
+{
+    margin-top: 17px;
+    margin-left: 15px;
+}
+.filtre
+{
+    font-weight: bold;
+    margin: 0.5%;
+    border-radius: 25%;
+    border: solid; border-color: #F2F2F2; ;  
+}
+.iconeboutton
+{
+    color: #0065FC ; background-color:#DEEBFF ;
+    padding: 5px;
+    
+}
+button:hover
+{
+    color: #0065fc;
 }
