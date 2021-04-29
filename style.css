@@ -84,28 +84,38 @@ label
 }
 .filtre
 {
+    color: #0065FC;
     font-weight: bold;
     margin: 0.5%;
     border-radius: 7px;
     border: solid; border-color: #F2F2F2; ;  
 }
-.iconeboutton
+.txtbouton
 {
-    color: #0065FC ; background-color:#DEEBFF ;
-    padding: 5px;
-    
+    color: black;
 }
-button:hover
+.txtbouton:hover
 {
     color: #0065fc;
+}
+section
+{
+    height: 100%;
+}
+aside
+{
+    display: flex;
+    justify-content: space-between;
 }
 .hebergement
 {
     background-color: #F2F2F2;
     border-radius: 7px;
+    height: 60%;
 }
 .populaire
 {
     background-color: #F2F2F2;
     border-radius: 7px;
+    height: 30%;
 }
