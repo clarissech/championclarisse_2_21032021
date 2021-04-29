@@ -84,17 +84,19 @@ label
 }
 .filtre
 {
-    color: #0065FC;
     font-weight: bold;
     margin: 0.5%;
     border-radius: 7px;
-    border: solid; border-color: #F2F2F2; ;  
+    border: solid; border-color: #F2F2F2; background-color: white; 
 }
-.txtbouton
+#icone1
 {
-    color: black;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    padding: 10px; border-radius: 25px;
+   
 }
-.txtbouton:hover
+.filtre:hover
 {
     color: #0065fc;
 }
