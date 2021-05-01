@@ -86,10 +86,16 @@ label
 {
     font-weight: bold;
     margin: 0.5%;
-    border-radius: 7px;
+    border-radius: 17px;
     border: solid; border-color: #F2F2F2; background-color: white; 
 }
-#icone1
+.filtrespanicone
+{
+    background-color: #DEEBFF;
+    padding: 0px;
+    border-radius: 25px;   
+}
+.icone1
 {
     color: #0065FC;
     background-color: #DEEBFF;
@@ -104,7 +110,7 @@ section
 {
     height: 100%;
 }
-aside
+.hebergement_populaire
 {
     display: flex;
     justify-content: space-between;
@@ -120,4 +126,8 @@ aside
     background-color: #F2F2F2;
     border-radius: 7px;
     height: 30%;
+}
+.liste_hébergement
+{
+    display: flex;
 }
