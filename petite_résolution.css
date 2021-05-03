@@ -6,3 +6,8 @@ h2
 {
     font-size: 0.95em;
 }
+.hebergement_populaire
+{
+    display: flex;
+    flex-direction: column-reverse;
+}
