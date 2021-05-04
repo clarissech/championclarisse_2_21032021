@@ -87,14 +87,15 @@ label
 {
     font-weight: bold;
     margin: 0.5%;
-    border-radius: 17px;
+    border-radius: 20px;
     border: solid; border-color: #F2F2F2; background-color: white; 
 }
 .filtrespanicone
 {
     background-color: #DEEBFF;
     padding: 0px;
-    border-radius: 25px;   
+    border-radius: 25px; 
+    margin-left: -20%;  
 }
 .icone1
 {
@@ -112,28 +113,72 @@ section
 {
     height: 100%;
 }
+.titrehebergement
+{
+padding-left: 5%;
+}
 .hebergement_populaire
 {
     display: flex;
-    justify-content: space-between;
+    ;
 }
 .hebergement
 {
     background-color: #F2F2F2;
     border-radius: 7px;
-    height: 60%;
+    
+    width: 60%;
+    padding-right: 5%;
 }
 .populaire
 {
     background-color: #F2F2F2;
     border-radius: 7px;
-    height: 30%;
+    width: 35%;
+    margin-left: 2%;
 }
 .liste_hébergement
 {
+    list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;   
 }
-.liste_hébergement2
+.choix_heb
+{
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 5%;
+    border-radius: 7px;
+    box-shadow: 6px 6px 4px lightgray;
+}
+.image
+{
+    width: 277px;
+    height: 134px;
+    border-radius: 7px;
+}
+
+.blue_star
+{
+    color: #0065FC;
+}
+.grey_star
+{
+    color: #F2F2F2;
+}
+.imagepop
+{
+    width: 128px;
+    height: 134px;
+}
+.liste_popu
+{
+    list-style-type: none;  
+}
+.choix_pop_cadre
 {
     display: flex;
+    background-color: white;
+    
 }
