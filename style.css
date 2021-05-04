@@ -108,6 +108,13 @@ label
 {
     color: #0065fc;
 }
+.info
+{
+    color: #0065FC;
+    border: solid; border-color: #F2F2F2;
+    padding: 7px; padding-right: 10px; padding-left: 10px;
+    border-radius: 25px;
+}
 /*les hébergements et populaire */
 section
 {
@@ -117,11 +124,12 @@ section
 .titrehebergement
 {
 padding-left: 5%;
+font-weight: bold;
 }
 .hebergement
 {
     background-color: #F2F2F2;
-    border-radius: 7px;
+    border-radius: 30px;
     
     width: 60%;
     padding-right: 5%;
@@ -137,15 +145,15 @@ padding-left: 5%;
 {
     background-color: white;
     padding: 7px;
-    margin-bottom: 5%;
-    border-radius: 7px;
+    margin-bottom: 20%;
+    border-radius: 30px;
     box-shadow: 6px 6px 4px lightgray;
 }
 .image
 {
     width: 277px;
     height: 134px;
-    border-radius: 7px;
+    border-radius: 20px;
 }
 /*couleur étoiles*/
 .blue_star
@@ -160,9 +168,16 @@ padding-left: 5%;
 .populaire
 {
     background-color: #F2F2F2;
-    border-radius: 7px;
+    border-radius: 30px;
     width: 35%;
-    margin-left: 2%;
+    margin-left: 4%;
+}
+.titre_populaire
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10%;
+    padding-left: 7%;
 }
 .hebergement_populaire
 {
@@ -171,16 +186,37 @@ padding-left: 5%;
 }
 .imagepop
 {
-    width: 128px;
-    height: 134px;
+    width: 148px;
+    height: 155px;
+    border-top-left-radius: 20px; border-bottom-left-radius: 20px;
 }
 .liste_popu
 {
     list-style-type: none;  
+    padding-left: 15%;
+
+
 }
 .choix_pop_cadre
 {
     display: flex;
     background-color: white;
-    
+    box-shadow: 6px 6px 4px lightgray;
+    width: 80%;
+    margin-bottom: 15%;
+    border-radius: 30px;
+    padding-top: 1.2%;
+    padding-bottom: 1.2%;
+}
+.text_choix_pop
+{
+    width: 40%;
+    margin-left: 4%;
+}
+.image_choix_pop
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2%;
 }
