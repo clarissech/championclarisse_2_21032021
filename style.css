@@ -258,14 +258,14 @@ font-weight: bold;
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-box-shadow: black 6px 6px 6px;  
+box-shadow: lightgray 6px 6px 4px;  
 margin-left: 3%; margin-right: 3%;
 padding-bottom: 3px;
 }
 .cartes_act1
 {
     border-radius: 20px;
-    box-shadow: black 6px 6px 6px;  
+    box-shadow: lightgray 6px 6px 4px;  
     margin-left: 3%; margin-right: 3%;
     width: 320px;
     display: flex;
@@ -314,4 +314,8 @@ object-fit: cover;
 overflow: hidden; 
 float: left;
 border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
+.text_choix_act
+{
+   padding-left: 4px;
 }
