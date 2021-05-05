@@ -1,6 +1,7 @@
 h1
 {
 font-size: 1.3em;
+color: blueviolet;
 }
 h2
 {
@@ -8,6 +9,8 @@ h2
 }
 .hebergement_populaire
 {
-    display: flex;
-    flex-direction: column-reverse;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 }
