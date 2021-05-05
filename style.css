@@ -41,8 +41,15 @@ nav a:hover
 }
 .S_inscrire{
     color: #0065FC;
-/* titres */
 }
+    /*pied de page*/
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: space-around;
+}
+/* titres */
 h2
 {
     font-weight: normal;
@@ -120,6 +127,7 @@ section
 {
     height: 100%;
 }
+
 /*hébergements*/
 .titrehebergement
 {
@@ -130,16 +138,32 @@ font-weight: bold;
 {
     background-color: #F2F2F2;
     border-radius: 30px;
-    
     width: 60%;
     padding-right: 5%;
 }
 .liste_hébergement
 {
-    list-style-type: none;
     display: flex;
+    list-style-type: none;
     flex-wrap: wrap;
     justify-content: space-around;   
+    align-items: center;
+}
+.image_choix_héb
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px; width: 100%;
+}
+.image
+{
+    width: 100%; height: 100%;
+	object-fit: cover;
+	overflow: hidden; 
+    float: left;
+    padding-left: 2%;
+    border-top-left-radius: 20px; border-top-right-radius: 20px;
 }
 .choix_heb
 {
@@ -148,13 +172,9 @@ font-weight: bold;
     margin-bottom: 20%;
     border-radius: 30px;
     box-shadow: 6px 6px 4px lightgray;
+    width: 300px;
 }
-.image
-{
-    width: 277px;
-    height: 134px;
-    border-radius: 20px;
-}
+
 /*couleur étoiles*/
 .blue_star
 {
@@ -184,10 +204,13 @@ font-weight: bold;
     display: flex;
     ;
 }
+
 .imagepop
 {
-    width: 148px;
-    height: 155px;
+    width: 100%; height: 100%;
+	object-fit: cover;
+	overflow: hidden; 
+    float: left;
     border-top-left-radius: 20px; border-bottom-left-radius: 20px;
 }
 .liste_popu
@@ -219,4 +242,68 @@ font-weight: bold;
     align-items: center;
     justify-content: center;
     padding-left: 2%;
+    height: 150px; width: 50%;
 }
+.activité
+{
+    display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.interieur_carte_act
+{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow : 5px  5px  5px  rgba( 0 ,  0 ,  0 ,  .2 );
+    width: 100%;
+}
+.interieur_carte_act img
+{
+    border-radius: 20px 20px 0 0;
+  }
+.cartes_act
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.taille1{
+    height: 423px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .bloc:first-child{
+    padding-left: 0;
+  }
+  
+  .taille2{
+    height: 185px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .taille3{
+    height: 141px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .taille5{
+    height: 141px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .taille6{
+    height: 181px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .text_choix_act{
+    margin: 14px 0 0 20px;
+    height: 36px;
+    font-weight: bold;
+  }
+  
