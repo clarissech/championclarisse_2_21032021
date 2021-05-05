@@ -244,66 +244,74 @@ font-weight: bold;
     padding-left: 2%;
     height: 150px; width: 50%;
 }
-.activité
+.activite
 {
     display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: column;
   padding-bottom: 60px;
+  height: 550px; 
 }
-.interieur_carte_act
-{
-    background-color: white;
-    border-radius: 20px;
-    box-shadow : 5px  5px  5px  rgba( 0 ,  0 ,  0 ,  .2 );
-    width: 100%;
-}
-.interieur_carte_act img
-{
-    border-radius: 20px 20px 0 0;
-  }
 .cartes_act
 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding: 0 20px;
+    border-radius: 20px;
+box-shadow: black 6px 6px 6px;  
+margin-left: 3%; margin-right: 3%;
+padding-bottom: 3px;
+}
+.cartes_act1
+{
+    border-radius: 20px;
+    box-shadow: black 6px 6px 6px;  
+    margin-left: 3%; margin-right: 3%;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3px;
+}
+.interieur_cate_act
+{
+    height: 16.5%;
 }
 .taille1{
-    height: 423px;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .bloc:first-child{
-    padding-left: 0;
-  }
-  
-  .taille2{
-    height: 185px;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .taille3{
-    height: 141px;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .taille5{
-    height: 141px;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .taille6{
-    height: 181px;
-    width: 100%;
-    object-fit: cover;
-  }
-  .text_choix_act{
-    margin: 14px 0 0 20px;
-    height: 36px;
-    font-weight: bold;
-  }
-  
+    width: 100%; height: 500px;
+	object-fit: cover;
+	overflow: hidden; 
+    float: left;
+    border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
+.taille2
+{
+width: 100%; height: 200px;
+object-fit: cover;
+overflow: hidden; 
+float: left;
+border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
+.taille3
+{
+width: 100%; height: 150px;
+object-fit: cover;
+overflow: hidden; 
+float: left;
+border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
+.taille5
+{
+width: 100%; height: 170px;
+object-fit: cover;
+overflow: hidden; 
+float: left;
+border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
+.taille6
+{
+width: 100%; height: 160px;
+object-fit: cover;
+overflow: hidden; 
+float: left;
+border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
