@@ -12,8 +12,13 @@ font-family: "Raleway", serif;
 header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
-
+header nav
+{
+    width: 45%;
+}
 nav ul
 {
     list-style-type: none;
@@ -41,6 +46,16 @@ nav a:hover
 }
 .S_inscrire{
     color: #0065FC;
+    width: 5%;
+}
+.S_inscrire a:hover
+{
+        color: #0065FC;
+    border-top: 3px solid; color :#0065FC; 
+}
+.logo-header
+{
+    width: 50%;
 }
     /*pied de page*/
 footer
@@ -137,22 +152,19 @@ section
 {
 padding-left: 5%;
 font-weight: bold;
+width: 100%;
 }
 .hebergement
 {
     background-color: #F2F2F2;
     border-radius: 30px;
-
-    padding-right: 5%;
-}
-.liste_hébergement
-{
+    width: 100%;
+    padding: 2%;
     display: flex;
-    list-style-type: none;
     flex-wrap: wrap;
     justify-content: space-between;
-    
 }
+
 .image_choix_héb
 {
     display: flex;
@@ -166,17 +178,17 @@ font-weight: bold;
 	object-fit: cover;
 	overflow: hidden; 
     float: left;
-    padding-left: 2%;
+    padding-left: 0.1%;
     border-top-left-radius: 20px; border-top-right-radius: 20px;
 }
 .choix_heb
 {
     background-color: white;
     padding: 7px;
-    margin-bottom: 20%;
+    margin-bottom: 4%;
     border-radius: 30px;
     box-shadow: 6px 6px 4px lightgray;
-    width: 240px;
+    width: 30%;
 }
 .afficher_plus
 {
@@ -198,14 +210,15 @@ font-weight: bold;
     background-color: #F2F2F2;
     border-radius: 30px;
     margin-left: 4%;
-    padding-left: 5%;
+    width: 40%;
+
 }
 .titre_populaire
 {
     display: flex;
     justify-content: space-between;
     padding-right: 10%;
-    margin-left: -7%;
+
 }
 
 .imagepop
@@ -221,7 +234,7 @@ font-weight: bold;
     padding-left: 5%;
     display: flex;
     flex-direction: column;
-    margin-left: -17%;
+
 }
 .choix_pop_cadre
 {
@@ -232,7 +245,7 @@ font-weight: bold;
     border-radius: 30px;
     padding-top: 1.2%;
     padding-bottom: 1.2%;
-    margin-bottom: 20%; 
+    margin-bottom: 4%; 
 }
 .text_choix_pop
 {
@@ -310,12 +323,29 @@ border-top-left-radius: 20px; border-top-right-radius: 20px;
     width: 100%;  }
     h1
 {
-font-size: 1.3em;
+font-size: 1.2em;
 
+}
+.infotxt
+{
+    font-size: 1.1em;
 }
 h2
 {
     font-size: 0.95em;
+}
+header nav
+{
+    width: 100%;
+}
+.S_inscrire
+{
+    order: -1;
+    width: 30%;
+}
+.logo-header
+{
+    order: -2;
 }
 nav ul
 {
@@ -346,8 +376,8 @@ footer
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 19%;
-    margin-left: -4%;
+    margin-left: 0%;
+
 }
 .choix_pop_cadre
 {
