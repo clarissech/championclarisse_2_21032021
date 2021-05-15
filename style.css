@@ -47,11 +47,8 @@ nav a:hover
 .S_inscrire{
     color: #0065FC;
     width: 5%;
-}
-.S_inscrire a:hover
-{
-        color: #0065FC;
-    border-top: 3px solid; color :#0065FC; 
+      text-decoration: none;
+
 }
 .logo-header
 {
@@ -64,6 +61,7 @@ footer
     display: flex;
     justify-content: space-around;
     width: 100%;
+    margin-left: -1%;
 }
 /* titres */
 h2
@@ -105,6 +103,10 @@ label
 {
     margin-top: 17px;
     margin-left: 15px;
+}
+.txtfiltre
+{
+    font-weight: bold;
 }
 .filtre
 {
@@ -198,6 +200,7 @@ width: 100%;
 {
     padding-left: 5%;
     font-weight: bold;
+    width: 100%;
 }
 /*couleur étoiles*/
 .blue_star
@@ -289,7 +292,8 @@ width: 100%;
     border-radius: 20px;
 box-shadow: lightgray 6px 6px 4px;
 height: 12rem;
-
+  text-decoration: none;
+    color: black;
 }
 .cartes_act1
 {
@@ -299,7 +303,8 @@ height: 12rem;
     display: flex;
     flex-direction: column;
     padding-bottom: 3px;
-
+  text-decoration: none;
+    color: black;
 }
 
 .taille1{
@@ -317,6 +322,18 @@ object-fit: cover;
 overflow: hidden; 
 float: left;
 border-top-left-radius: 20px; border-top-right-radius: 20px;
+}
+.t3
+{
+height: 16rem;
+}
+.t4
+{
+height: 13rem;
+}
+.t5
+{
+height: 15rem;
 }
 .contient_double_carte
 {
@@ -384,12 +401,19 @@ footer
     padding-left: 3%;
     margin-left: -2%;
 }
+.txtfiltre
+{
+    width: 100%;
+}
 .contenant_filtres
 {
     display: flex;
     flex-wrap: wrap;
 }
-
+.heart
+{
+    margin-right: 100px;
+}
 .populaire
 {
     width: 101%;
@@ -453,10 +477,11 @@ margin-bottom: 4%;
 {
     width: 95%;
     margin-bottom: 4%;
+    height: 12rem;
 }
 .taille1
 {
-    height: 100px;
+    height: 100%;
     width: 100%;
 }
 .contient_double_carte
@@ -472,5 +497,85 @@ margin-bottom: 4%;
 {
     height: 100px;
 }
+}
+@media screen and (min-width: 375px) and (max-width: 990px) {
+  body {
+    width: 100%;  }
+    .logo-header
+{
+    width: 49%;
+}
+header nav
+{
+    width: 39%;
+}
+.S_inscrire{
+    width: 11%;
+}
+.choix_heb
+{
+    width: 30%;
+}
+.hebergement
+{
+    width: 94%;
+}
+.hebergement_populaire
+{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.populaire
+{
+    width: 98%;
+    margin-left: -0.2%;
+    margin-top: 1%;
+}
+.titre_populaire
+{
+    margin-left: -10%;
+}
+.liste_popu
+{
+    display: flex;
+    flex-direction: row;
+padding-left: 3%;
+width: 100%;
+}
+.text_choix_pop
+{
+    width: 70%;
+}
+.choix_pop_cadre
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+margin-right: 3%;
+}
+.image_choix_pop
+{
 
+    height: 100px; width: 96%;
+}
+.imagepop
+{
+    border-top-left-radius: 20px; border-bottom-left-radius: 0px; border-top-right-radius: 20px;
+}
+.contient_double_carte
+{
+width : 20%
+}
+.cartes_act1
+{
+width: 20%;
+height: 460px;
+}
+.activite
+{
+    width: 95%;
+}
 }
