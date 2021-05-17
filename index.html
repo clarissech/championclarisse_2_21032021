@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang=fr>
 
 <head>
 
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-375, initial-scale=1">
+    <meta name="viewport" content="width=device-576, initial-scale=1">
     <script src="https://kit.fontawesome.com/3eb43af5a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" media="screen and (max-width: 400px)" href="petite_résolution.css" />
@@ -53,13 +53,14 @@
     </form>
     <p class="infotxt"><i class="fas fa-info info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
     <!--les hébergements-->
-    <section class="hebergement_populaire">
+    <div class="hebergement_populaire">
         <!--hébergments/populaires-->
         <aside class="hebergement" id="hebergement">
             <h1 class="titrehebergement">Hébergements à Marseille</h1>
 
             <a href="#" class="choix_heb">
-                <div class="image_choix_héb"><img src="images/hebergements/4_small/marcus.jpg" class="image">
+                <div class="image_choix_héb"><img src="images/hebergements/4_small/marcus.jpg"
+                        alt="auberge_la-cannebiere" class="image">
                 </div>
                 <div class="text_choix_heb_1_1">
                     <h3>Auberge la Cannebière</h3>
@@ -74,7 +75,7 @@
             </a>
             <a href="#" class="choix_heb">
                 <div class="image_choix_héb"><img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-                        class="image">
+                        alt="hotel_du_port" class="image">
                 </div>
                 <div class="text_choix_heb_1_1">
                     <h3>Hôtel du port</h3>
@@ -89,7 +90,7 @@
             </a>
             <a href="#" class="choix_heb">
                 <div class="image_choix_héb"><img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                        class="image">
+                        alt="hotel_les_mouettes" class="image">
                 </div>
                 <div class="text_choix_heb_1_1">
                     <h3>Hôtel Les mouettes</h3>
@@ -104,7 +105,8 @@
             </a>
             <a href="#" class="choix_heb">
                 <div class="image_choix_héb"><img
-                        src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class="image">
+                        src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="hotel_de_la_mer"
+                        class="image">
                 </div>
                 <div class="text_choix_heb_1_1">
                     <h3>Hôtel de la mer</h3>
@@ -119,7 +121,7 @@
             </a>
             <a href="#" class="choix_heb">
                 <div class="image_choix_héb"><img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-                        class="image">
+                        alt="auberge_le_panier" class="image">
                 </div>
                 <div class="text_choix_heb_1_1">
                     <h3>Auberge Le Panier</h3>
@@ -134,7 +136,8 @@
             </a>
             <a href="#" class="choix_heb">
                 <div class="image_choix_héb"><img
-                        src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class="image"></div>
+                        src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                        alt="hotel_chez_amina" class="image"></div>
                 <div class="text_choix_heb_1_1">
                     <h3>Hôtel chez Amina</h3>
                     <p>Nuit à partir de 96€</p>
@@ -154,7 +157,8 @@
             <div class="liste_popu">
                 <a href="#" class="choix_pop_cadre">
                     <div class="image_choix_pop"><img
-                            src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" class="imagepop">
+                            src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                            alt="le_soleil_du_matin" class="imagepop">
                     </div>
                     <div class="text_choix_pop">
                         <h3>Hôtel Le soleil du matin</h3>
@@ -169,7 +173,8 @@
                 </a>
                 <a href="#" class="choix_pop_cadre">
                     <div class="image_choix_pop"><img
-                            src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" class="imagepop">
+                            src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                            alt="chambres_d_hotes" class="imagepop">
                     </div>
                     <div class="text_choix_pop">
                         <h3>Au coeur de l'eau Chambres d'hôtes</h3>
@@ -184,7 +189,8 @@
                 </a>
                 <a href="#" class="choix_pop_cadre">
                     <div class="image_choix_pop"><img
-                            src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" class="imagepop">
+                            src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                            alt="tout_bleu_et_blanc" class="imagepop">
                     </div>
                     <div class="text_choix_pop">
                         <h3>Hôtel Tout bleu et Blanc</h3>
@@ -200,39 +206,45 @@
             </div>
 
         </aside>
-    </section>
+    </div>
     <!--activités-->
     <section>
         <h1 class=titre_activité>Activités à Marseilles</h1>
         <div class="activite" id="activite">
             <a href="#" class="cartes_act1">
-                <img class="taille1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                <img class="taille1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
+                    alt="vieux_port">
                 <h3 class="text_choix_act">Vieux Port</h3>
             </a>
             <div class="contient_double_carte">
                 <a href="#" class="cartes_act t3">
-                    <img class="taille2" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                    <img class="taille2" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
+                        alt="fort_de_pomegues">
                     <h3 class="text_choix_act">Fort de Pomègues</h3>
                 </a>
 
                 <a href="#" class="cartes_act">
-                    <img class="taille2" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                    <img class="taille2" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
+                        alt="iles_du_frioul">
                     <h3 class="text_choix_act">Iles du Frioul</h3>
                 </a>
             </div>
             <a href="#" class="cartes_act1">
-                <img class="taille1" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                <img class="taille1" src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
+                    alt="parc_national">
                 <h3 class="text_choix_act">Parc National des Calanques</h3>
             </a>
             <div class="contient_double_carte">
                 <a href="#" class="cartes_act t4">
-                    <img class="taille2" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                    <img class="taille2" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
+                        alt="notre_dame">
                     <h3 class="text_choix_act">Notre-Dame-de-la-Garde</h3>
                 </a>
 
 
                 <a href="#" class="cartes_act t5">
-                    <img class="taille2" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                    <img class="taille2" src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
+                        alt="parc_longchamp">
                     <h3 class="text_choix_act">Parc Longchamp</h3>
                 </a>
             </div>
