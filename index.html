@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-576, initial-scale=1">
     <script src="https://kit.fontawesome.com/3eb43af5a4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 400px)" href="petite_résolution.css" />
     <title>Reservia</title>
 
 </head>
@@ -20,22 +19,23 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#hebergement">Hébergement</a></li>
-                <li><a href="#activite">activité</a></li>
+                <li><a href="#hebergement">Hébergements</a></li>
+                <li><a href="#activite">activités</a></li>
             </ul>
         </nav>
         <a href="#" class="S_inscrire"><strong>S'inscrire</strong></a>
 
     </header>
     <!--les titres-->
-    <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 
     <h2>En plein centre ville ou en pleine nature</h2>
     <!--barre de recherche-->
     <form method="post" action="#">
-        <p>
+        <p class="barrerecherche">
             <i class="fas fa-map-marker-alt"></i> <input type="search" placeholder="Marseille, France"
-                class="recherche" /><button class="bouton-recherche">Rechercher</button>
+                class="recherche" /><button class="bouton-recherche"><span
+                    class="interieur_rechercher">Rechercher</span><i class="fas fa-search"></i></button>
         </p>
     </form>
     <!--filtres-->
@@ -44,11 +44,11 @@
 
         <button class="filtre"><span class="filtrespanicone"><i class="fas fa-money-bill-wave icone1"></i></span>
             Economique</button>
-        <button class="filtre"><span class="filtrespanicone"><i class="fas fa-child icone1"></i></span>
+        <button class="filtre"><span class="filtrespanicone"><i class="fas fa-child icone2"></i></span>
             Familial</button>
-        <button class="filtre heart"><span class="filtrespanicone"><i class="fas fa-heart icone1"></i></span>
+        <button class="filtre filtrecoeur"><span class="filtrespanicone"><i class="fas fa-heart icone3"></i></span>
             Romantique</button>
-        <button class="filtre"><span class="filtrespanicone"><i class="fas fa-dog icone1"></i></span> Animaux
+        <button class="filtre"><span class="filtrespanicone"><i class="fas fa-dog icone4"></i></span> Animaux
             autorisés</button>
     </form>
     <p class="infotxt"><i class="fas fa-info info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
@@ -56,7 +56,7 @@
     <div class="hebergement_populaire">
         <!--hébergments/populaires-->
         <aside class="hebergement" id="hebergement">
-            <h1 class="titrehebergement">Hébergements à Marseille</h1>
+            <h2 class="titrehebergement">Hébergements à Marseille</h2>
 
             <a href="#" class="choix_heb">
                 <div class="image_choix_héb"><img src="images/hebergements/4_small/marcus.jpg"
@@ -153,7 +153,7 @@
         </aside>
         <!--populaires-->
         <aside class="populaire">
-            <h1 class="titre_populaire">Les plus populaires<i class="fas fa-chart-line"></i> </h1>
+            <h2 class="titre_populaire">Les plus populaires<i class="fas fa-chart-line"></i> </h2>
             <div class="liste_popu">
                 <a href="#" class="choix_pop_cadre">
                     <div class="image_choix_pop"><img
@@ -209,7 +209,7 @@
     </div>
     <!--activités-->
     <section>
-        <h1 class=titre_activité>Activités à Marseilles</h1>
+        <h2 class=titre_activité>Activités à Marseilles</h2>
         <div class="activite" id="activite">
             <a href="#" class="cartes_act1">
                 <img class="taille1" src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
